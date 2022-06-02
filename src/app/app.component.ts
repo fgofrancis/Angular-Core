@@ -35,7 +35,7 @@ export class AppComponent implements AfterViewInit{
   cards!:QueryList<CourseCardComponent>;
 
   constructor(){
-    console.log('containerDiv..:', this.card1);
+    // console.log('containerDiv..:', this.card1);
   }
 
   ngAfterViewInit(): void {
@@ -47,7 +47,6 @@ export class AppComponent implements AfterViewInit{
   //    this.cards.changes.subscribe(
   //        cards=> console.log(cards)
   //    );
-      console.log('xxxxx', this.cards);
   }
 
   onCourseEdited(){
